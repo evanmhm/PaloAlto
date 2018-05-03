@@ -1,0 +1,99 @@
+* {
+    color: #414849;
+}
+
+body {
+    font-family: 'Helvetica-neue', sans-serif;
+    background-image: url("pw_maze_white.png");
+    background-repeat: repeat;
+}
+
+.page {
+    margin: 4% 15%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    background-color: #FFF;
+    padding: 2% 4%;
+}
+
+.card {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 3%;
+    background-color: #F8F8F8;
+    padding: 1% 2%;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.title:before, .title:after {
+    background-color: #eeefef;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.post-title {
+    font-weight: normal;
+}
+
+.card>hr {
+    width: 104%;
+    margin-left: -2%;
+}
+
+.button-holder {
+    text-align: center;
+    margin: 10px;
+}
+
+.comments {
+    display: inline-block;
+    width: 49%;
+    text-decoration: none;
+    color: #5388ff;
+}
+
+.username {
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+}
+
+#up-button, #down-button {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #FFF;
+    border: none;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+#up-button {
+    background-image: url("upCircle.png");
+}
+
+#down-button {
+    background-image: url("downCircle.png");
+}

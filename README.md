@@ -1,2 +1,3 @@
 # PaloAlto
-The Web Developer Intern Homework
+The Web Developer Internship Homework.
+To start, just open index.html.
